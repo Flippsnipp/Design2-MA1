@@ -1,0 +1,42 @@
+
+[id^= "terminal_"] {
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+
+[id^= "terminal_"]:hover {
+    fill: red;
+    transform: scale(1.2);
+}
+
+[id^= "line_"] {
+    transition: stroke 1s, stroke-width 1s;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+[id^= "line_"]:hover {
+    stroke: blue;
+    stroke-width: 12px;
+}
+
+[id^= "stop_"] {
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
+[id^= "stop_"]:hover {
+    transform: scale(1.2);
+
+}
+
+[id^= "popup_"] {
+    transition: opacity .4s;
+    opacity: 0;
+}
+
+.popup-open {
+    opacity: 1;
+}
